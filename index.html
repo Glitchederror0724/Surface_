@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Surface — a Lua script currently under development.">
+  <title>Surface — Lua Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home">SURFACE<span>.</span></a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#status">Status</a>
+      <a href="#changelog">Changelog</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="nav-button" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+  </header>
 
+  <main>
+    <section class="hero" id="home">
+      <div class="glow"></div>
+      <div class="hero-content">
+        <div class="badge"><span></span> IN DEVELOPMENT</div>
+        <h1>Surface<span>.</span></h1>
+        <p>A Lua project built from the ground up. Surface is currently in development, with more features and improvements coming soon.</p>
+        <div class="actions">
+          <a class="button primary" href="#status">View Progress</a>
+          <a class="button secondary" href="https://github.com/" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+      <div class="code-card">
+        <div class="window-bar"><i></i><i></i><i></i><span>surface.lua</span></div>
+        <pre><code><span class="purple">local</span> Surface = {}
+
+<span class="purple">function</span> Surface.<span class="blue">init</span>()
+    <span class="comment">-- Surface is still growing.</span>
+    <span class="comment">-- More features coming soon...</span>
+    <span class="purple">return</span> Surface
+<span class="purple">end</span>
+
+<span class="purple">return</span> Surface</code></pre>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ROADMAP</p>
+          <h2>Built to grow.</h2>
+        </div>
+        <p>Surface is still early in development. These areas can evolve as the project gets bigger.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="icon">01</div>
+          <h3>Core</h3>
+          <p>The foundation of Surface and its main Lua systems.</p>
+          <span class="status working">IN DEVELOPMENT</span>
+        </article>
+        <article class="card">
+          <div class="icon">02</div>
+          <h3>UI</h3>
+          <p>A clean interface for interacting with Surface.</p>
+          <span class="status planned">PLANNED</span>
+        </article>
+        <article class="card">
+          <div class="icon">03</div>
+          <h3>Configuration</h3>
+          <p>Flexible settings that can be expanded over time.</p>
+          <span class="status planned">PLANNED</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section status-section" id="status">
+      <div class="panel">
+        <div>
+          <p class="eyebrow">PROJECT STATUS</p>
+          <h2>Surface is just getting started.</h2>
+          <p class="muted">The project is actively being worked on. Features listed here may change as development continues.</p>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-label"><span>Development</span><strong>Early Access</strong></div>
+          <div class="progress"><div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="changelog">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CHANGELOG</p>
+          <h2>What's new?</h2>
+        </div>
+      </div>
+      <div class="timeline">
+        <article class="release">
+          <div class="version">v0.1.0</div>
+          <div>
+            <h3>Initial Development</h3>
+            <ul>
+              <li>Surface project created.</li>
+              <li>Initial Lua structure started.</li>
+              <li>Core systems are being developed.</li>
+            </ul>
+          </div>
+          <time>Current</time>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-box">
+        <p class="eyebrow">ABOUT SURFACE</p>
+        <h2>Small now. Bigger later.</h2>
+        <p>Surface is a Lua project in its early stages. This website will grow alongside the script, with documentation, releases, features, and updates added as they become available.</p>
+        <a class="text-link" href="https://github.com/" target="_blank" rel="noopener">Follow development on GitHub →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand">SURFACE<span>.</span></div>
+    <p>Built with Lua &amp; curiosity.</p>
+    <p>© <span id="year"></span> Surface</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
