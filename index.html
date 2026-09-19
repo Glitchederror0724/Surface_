@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07080d">
+<meta name="description" content="Surface — a Lua project in active development.">
+<title>Surface — Lua Project</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<a class="brand" href="#home"><b>S</b><strong>SURFACE<span>.</span></strong></a>
+<button id="menu">☰</button>
+<nav id="nav"><a href="#features">Features</a><a href="#status">Status</a><a href="#changelog">Changelog</a><a href="docs.html">Docs</a></nav>
+<a class="github" href="https://github.com/Glitchederror0724/Surface_" target="_blank">GitHub ↗</a>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="copy reveal">
+<div class="badge"><i></i> ACTIVE DEVELOPMENT <span>v0.1.0</span></div>
+<h1>Build on the<br><em>Surface.</em></h1>
+<p>Surface is a Lua project focused on a clean foundation, an expandable interface, and room to grow.</p>
+<div class="buttons"><a class="btn primary" href="#features">Explore Surface →</a><a class="btn" href="docs.html">Read the docs</a></div>
+<div class="stats"><div><b>Lua</b><small>LANGUAGE</small></div><div><b>Open</b><small>DEVELOPMENT</small></div><div><b>Early</b><small>PROJECT STAGE</small></div></div>
+</div>
+<div class="terminal reveal">
+<div class="bar"><div>● ● ●</div><span>surface.lua</span><small>● ready</small></div>
+<pre><code><span class="p">local</span> Surface = {
+    version = <span class="g">"0.1.0"</span>,
+    status = <span class="g">"development"</span>
+}
+
+<span class="p">function</span> Surface.<span class="b">init</span>()
+    <span class="c">-- Initialize Surface</span>
+    print(<span class="g">"Welcome to Surface."</span>)
+    <span class="p">return</span> Surface
+<span class="p">end</span>
+
+<span class="p">return</span> Surface</code></pre>
+<div class="foot">● Surface Core <span>Lua</span></div>
+</div>
+</section>
+
+<section class="section" id="features">
+<div class="heading reveal"><div><label>01 / FEATURES</label><h2>Made to evolve.</h2></div><p>Surface is being built in stages. The foundation comes first, followed by the interface, configuration, and documentation.</p></div>
+<div class="grid">
+<article class="card reveal"><div class="top">01 <span class="active">● BUILDING</span></div><div><h3>Surface Core</h3><p>The main foundation of Surface, built to keep future features organized and expandable.</p></div><div class="lines">━━ ━ ━</div></article>
+<article class="card reveal"><div class="top">02 <span>PLANNED</span></div><div><h3>Clean Interface</h3><p>A focused UI designed to make Surface simple to navigate without unnecessary clutter.</p></div><div class="symbol">⌘</div></article>
+<article class="card reveal"><div class="top">03 <span>PLANNED</span></div><div><h3>Configuration</h3><p>Settings and options that can expand alongside the rest of the project.</p></div><div class="symbol">{ }</div></article>
+<article class="card reveal"><div class="top">04 <span>PLANNED</span></div><div><h3>Documentation</h3><p>Setup instructions, examples, usage information, and project notes in one place.</p></div><div class="symbol">/ /</div></article>
+</div>
+</section>
+
+<section class="section" id="status">
+<div class="panel reveal">
+<div><label>02 / PROJECT STATUS</label><h2>Early access.<br>Built in public.</h2><p>Surface is actively being developed. Features and plans may change while the core takes shape.</p><a class="textlink" href="https://github.com/Glitchederror0724/Surface_" target="_blank">Watch development on GitHub ↗</a></div>
+<div class="progressbox"><div class="progresshead"><span>Development phase</span><b>EARLY ACCESS</b></div><div class="progress"><i></i></div>
+<ul><li class="done">● Project created <b>DONE</b></li><li class="done">● Core development <b>ACTIVE</b></li><li>● Interface <b>NEXT</b></li><li>● Configuration <b>PLANNED</b></li><li>● Documentation <b>PLANNED</b></li></ul>
+</div>
+</div>
+</section>
+
+<section class="section" id="changelog">
+<div class="heading reveal"><div><label>03 / CHANGELOG</label><h2>What's happening?</h2></div><p>Major milestones and public-facing changes will appear here as Surface develops.</p></div>
+<div class="release reveal"><div class="version">● v0.1.0</div><div><div class="releasehead"><h3>Initial Development</h3><small>Current</small></div><p>The beginning of Surface and its core structure.</p><ul><li>Surface project created</li><li>Initial Lua structure started</li><li>Core systems entered development</li><li>Project website upgraded</li></ul></div></div>
+</section>
+
+<section class="section">
+<div class="cta reveal"><label>SURFACE / GITHUB</label><h2>Follow the build.</h2><p>Surface is still at the beginning. Follow the repository for project files and development changes.</p><div class="buttons center"><a class="btn primary" href="https://github.com/Glitchederror0724/Surface_" target="_blank">Open GitHub ↗</a><a class="btn" href="docs.html">Documentation</a></div></div>
+</section>
+</main>
+
+<footer><div class="brand"><b>S</b><strong>SURFACE<span>.</span></strong></div><p>Lua project in active development.</p><p>© <span id="year"></span> Surface</p></footer>
+<script src="script.js"></script>
+</body></html>
